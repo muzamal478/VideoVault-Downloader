@@ -2,6 +2,9 @@
 
 VideoVault Downloader is a professional, responsive website for downloading videos by pasting a URL. Built with HTML, CSS, and JavaScript, it features a modern dark theme, SEO-optimized content, lazy loading, animations, and a consistent design.
 
+## Live Demo
+[Visit VideoVault Downloader](https://muzamal478.github.io/VideoVault-Downloader)
+
 ## Features
 - **Responsive Design**: Optimized for desktops, tablets, and mobiles.
 - **SEO-Optimized**: Meta tags, Open Graph tags, and keyword-rich content for search engine ranking.
