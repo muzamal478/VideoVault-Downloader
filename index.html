@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VideoVault Downloader - Download videos from any platform quickly and securely. Paste the URL and start downloading for free!">
+    <meta name="keywords" content="video downloader, free video download, download videos online, VideoVault, fast video downloader, secure video download">
+    <meta name="author" content="VideoVault Team">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="VideoVault Downloader - Fast & Free Video Downloads">
+    <meta property="og:description" content="Paste any video URL and download instantly. Free, fast, and secure with VideoVault!">
+    <meta property="og:image" content="images/hero-bg.jpg">
+    <meta property="og:url" content="https://your-domain.com">
+    <title>VideoVault Downloader - Fast, Free, Secure Video Downloads</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="VideoVault Downloader Logo" width="50" height="50">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Download Videos Effortlessly with VideoVault</h1>
+            <p>Paste any video URL and download in seconds. Free, fast, and secure!</p>
+            <div class="download-form">
+                <input type="url" id="video-url" placeholder="Paste video URL here" required aria-label="Video URL input">
+                <button onclick="startDownload()">Download Now</button>
+            </div>
+            <div id="progress-bar" class="progress-bar hidden">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About VideoVault</h2>
+            <p>VideoVault Downloader is your trusted platform for downloading videos from any source. We focus on delivering a seamless, secure, and user-friendly experience to save your favorite videos effortlessly.</p>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section id="how-to-use" class="how-to-use">
+        <div class="container">
+            <h2>How to Use VideoVault</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="images/step1.png" alt="Copy Video URL" loading="lazy">
+                    <h3>Step 1: Copy URL</h3>
+                    <p>Copy the URL of the video you want to download from any platform.</p>
+                </div>
+                <div class="step">
+                    <img src="images/step2.png" alt="Paste URL" loading="lazy">
+                    <h3>Step 2: Paste URL</h3>
+                    <p>Paste the URL into the input field on our homepage.</p>
+                </div>
+                <div class="step">
+                    <img src="images/step3.png" alt="Download Video" loading="lazy">
+                    <h3>Step 3: Download</h3>
+                    <p>Click the download button to start downloading your video.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose VideoVault?</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <img src="images/feature1.png" alt="Fast Downloads" loading="lazy">
+                    <h3>Blazing Fast</h3>
+                    <p>Download videos at lightning speed with our optimized technology.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/feature2.png" alt="Secure Downloads" loading="lazy">
+                    <h3>Secure</h3>
+                    <p>Your downloads are protected with end-to-end encryption.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/feature3.png" alt="User-Friendly Interface" loading="lazy">
+                    <h3>Easy to Use</h3>
+                    <p>Intuitive design makes downloading simple for everyone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul class="services-list">
+                <li>Multi-platform video downloading (YouTube, Vimeo, etc.)</li>
+                <li>High-quality downloads up to 4K resolution</li>
+                <li>Free and premium plans for all users</li>
+                <li>24/7 customer support via email and chat</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- User Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>What Our Users Say</h2>
+            <div class="review-grid">
+                <div class="review">
+                    <p>"VideoVault is incredibly easy to use and super fast!"</p>
+                    <h4>- Ayesha M.</h4>
+                </div>
+                <div class="review">
+                    <p>"I love how secure and reliable this downloader is."</p>
+                    <h4>- Bilal K.</h4>
+                </div>
+                <div class="review">
+                    <p>"The best video downloader I've ever used!"</p>
+                    <h4>- Fatima S.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="plans">
+        <div class="container">
+            <h2>Choose Your Plan</h2>
+            <div class="plan-grid">
+                <div class="plan">
+                    <h3>Free Plan</h3>
+                    <p>Download up to 5 videos per day for free.</p>
+                    <button>Start Free</button>
+                </div>
+                <div class="plan">
+                    <h3>Premium Plan</h3>
+                    <p>Unlimited downloads, 4K support, and priority support.</p>
+                    <button>Go Premium</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Section -->
+    <section id="subscribe" class="subscribe">
+        <div class="container">
+            <h2>Subscribe for Updates</h2>
+            <p>Get the latest news and features from VideoVault.</p>
+            <div class="subscribe-form">
+                <input type="email" placeholder="Enter your email" required aria-label="Email for subscription">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted Companies Section -->
+    <section id="trusted" class="trusted">
+        <div class="container">
+            <h2>Trusted by Leading Companies</h2>
+            <div class="company-logos">
+                <img src="images/company1.png" alt="Company 1 Logo" loading="lazy">
+                <img src="images/company2.png" alt="Company 2 Logo" loading="lazy">
+                <img src="images/company3.png" alt="Company 3 Logo" loading="lazy">
+                <img src="images/company4.png" alt="Company 4 Logo" loading="lazy">
+                <img src="images/company5.png" alt="Company 5 Logo" loading="lazy">
+                <img src="images/company6.png" alt="Company 6 Logo" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? We're here to help!</p>
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name" required aria-label="Your name">
+                <input type="email" placeholder="Your Email" required aria-label="Your email">
+                <textarea placeholder="Your Message" required aria-label="Your message"></textarea>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 VideoVault Downloader. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
