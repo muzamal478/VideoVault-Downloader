@@ -52,7 +52,7 @@ VideoVault-Downloader/
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/VideoVault-Downloader.git
+   git clone https://github.com/muzamal478/VideoVault-Downloader.git
    ```
 2. **Add Images**:
    - Place images in the `images/` folder as specified above.
@@ -71,14 +71,6 @@ VideoVault-Downloader/
      git push -u origin main
      ```
    - Enable GitHub Pages in `Settings > Pages > Source > main branch`.
-5. **Live Hosting**:
-   - **Netlify**:
-     - Go to [Netlify](https://www.netlify.com/), select "New site from Git".
-     - Connect your GitHub repository and deploy.
-   - **Vercel**:
-     - Go to [Vercel](https://vercel.com/), import your GitHub repository.
-     - Deploy with default settings.
-   - Update this README with the live URL after deployment.
 
 ## Server-Side Video Downloading
 For actual video downloading (e.g., from YouTube), a backend is required:
